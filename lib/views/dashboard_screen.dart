@@ -112,7 +112,7 @@ class _DashboardScreenState extends State<DashboardScreen> {
             TextField(
               controller: judulController,
               decoration: const InputDecoration(
-                labelText: 'Keterangan (misal: Beli Pop Ice / Print Tugas)',
+                labelText: 'Keterangan (Beli Pop Ice',
                 border: OutlineInputBorder(),
               ),
             ),
@@ -121,7 +121,7 @@ class _DashboardScreenState extends State<DashboardScreen> {
               controller: nominalController,
               keyboardType: TextInputType.number,
               decoration: const InputDecoration(
-                labelText: 'Nominal (Rp)',
+                labelText: 'Nominal (Rp5000)',
                 border: OutlineInputBorder(),
               ),
             ),
